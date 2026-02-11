@@ -1,0 +1,7 @@
+# Web capture dependencies
+crawl4ai>=0.3.0
+trafilatura>=1.6.0
+lxml_html_clean  # Required by trafilatura (lxml split this into a separate package)
+
+# AI-powered content updates
+anthropic>=0.40.0

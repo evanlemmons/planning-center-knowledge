@@ -1,0 +1,165 @@
+name: Planning Center RSS Monitor
+
+on:
+  schedule:
+    - cron: '0 15 * * 1,4'  # Monday and Thursday at 11am ET (15:00 UTC)
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  check-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check RSS feeds for new entries
+        id: rss
+        run: |
+          python3 << 'PYEOF'
+          import xml.etree.ElementTree as ET
+          import json
+          import os
+          import urllib.request
+
+          feeds = [
+              {
+                  "name": "blog",
+                  "url": "https://www.planningcenter.com/feed.xml",
+                  "seen_file": ".tracking/.last-seen-posts",
+                  "label": "blog-update",
+              },
+              {
+                  "name": "changelog",
+                  "url": "https://www.planningcenter.com/changelog/rss",
+                  "seen_file": ".tracking/.last-seen-changelog",
+                  "label": "changelog-update",
+              },
+          ]
+
+          all_new = []
+
+          for feed in feeds:
+              print(f"\n--- Checking {feed['name']} feed ---")
+
+              try:
+                  req = urllib.request.Request(feed["url"], headers={"User-Agent": "PC-Knowledge/1.0"})
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      xml_data = resp.read()
+              except Exception as e:
+                  print(f"  Failed to fetch {feed['name']}: {e}")
+                  continue
+
+              root = ET.fromstring(xml_data)
+
+              seen = set()
+              if os.path.exists(feed["seen_file"]):
+                  with open(feed["seen_file"]) as f:
+                      seen = set(line.strip() for line in f if line.strip())
+
+              new_entries = []
+              current_titles = []
+
+              for item in root.iter("item"):
+                  title_el = item.find("title")
+                  link_el = item.find("link")
+                  pub_date_el = item.find("pubDate")
+
+                  if title_el is not None and title_el.text:
+                      title = title_el.text.strip()
+                      link = link_el.text.strip() if link_el is not None and link_el.text else ""
+                      pub_date = pub_date_el.text.strip() if pub_date_el is not None and pub_date_el.text else ""
+
+                      current_titles.append(title)
+                      if title not in seen:
+                          new_entries.append({
+                              "feed": feed["name"],
+                              "title": title,
+                              "link": link,
+                              "date": pub_date,
+                          })
+
+              with open(feed["seen_file"], "w") as f:
+                  for t in current_titles:
+                      f.write(t + "\n")
+
+              if new_entries:
+                  print(f"  Found {len(new_entries)} new {feed['name']} entry/entries")
+                  all_new.extend(new_entries)
+              else:
+                  print(f"  No new {feed['name']} entries")
+
+          gh_output = os.environ.get("GITHUB_OUTPUT", "/dev/null")
+          with open(gh_output, "a") as f:
+              f.write(f"has_new={'true' if all_new else 'false'}\n")
+
+          if all_new:
+              # Write entries JSON for the content-update workflow
+              with open("/tmp/new_entries.json", "w") as f:
+                  json.dump(all_new, f)
+
+              # Build issue body
+              body_parts = ["## New Planning Center Content Detected\n"]
+              for entry in all_new:
+                  body_parts.append(f"- **[{entry['feed'].upper()}]** {entry['title']} ({entry['date']})\n  {entry['link']}")
+              body_parts.append("\nA content update PR will be created automatically.")
+
+              with open("/tmp/issue_body.txt", "w") as f:
+                  f.write("\n".join(body_parts))
+
+              title_blog = sum(1 for e in all_new if e["feed"] == "blog")
+              title_changelog = sum(1 for e in all_new if e["feed"] == "changelog")
+              title_parts = []
+              if title_blog:
+                  title_parts.append(f"{title_blog} blog")
+              if title_changelog:
+                  title_parts.append(f"{title_changelog} changelog")
+
+              with open("/tmp/issue_title.txt", "w") as f:
+                  f.write(f"New PC content: {', '.join(title_parts)}")
+
+              labels = list(set(e["feed"] + "-update" for e in all_new))
+              with open("/tmp/issue_labels.txt", "w") as f:
+                  f.write(",".join(labels))
+          PYEOF
+
+      - name: Commit tracking file updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .tracking/.last-seen-posts .tracking/.last-seen-changelog
+          git diff --staged --quiet || (git commit -m "Update RSS seen-entries tracker [skip ci]" && git push) || true
+
+      - name: Create notification issue
+        if: steps.rss.outputs.has_new == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('/tmp/issue_body.txt', 'utf8');
+            const title = fs.readFileSync('/tmp/issue_title.txt', 'utf8').trim();
+            const labels = fs.readFileSync('/tmp/issue_labels.txt', 'utf8').trim().split(',');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: labels
+            });
+
+      - name: Trigger content update
+        if: steps.rss.outputs.has_new == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const entries = fs.readFileSync('/tmp/new_entries.json', 'utf8');
+
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'content-update.yml',
+              ref: 'main',
+              inputs: {
+                entries: entries
+              }
+            });
