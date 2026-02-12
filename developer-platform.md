@@ -133,6 +133,8 @@ The API is split into product-specific sections. Products with API access:
 | Current | Current user context |
 | Webhooks | Webhook management |
 
+See `planningcenter/products` for detailed information about each product's features.
+
 **Not listed in API**: Home, Music Stand, Church Center -- these do not currently have public API endpoints.
 
 ## Libraries & Community

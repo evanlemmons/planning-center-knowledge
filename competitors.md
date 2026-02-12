@@ -3,6 +3,8 @@
 Last Updated: 2026-02-11
 Source: planningcenter.com/compare-planning-center-to-other-systems
 
+Note: This is not a comprehensive list of all competitors. These are the largest ones that we are aware of and have listed comparisons for on our marketing site.
+
 ## PC's Core Differentiators (Consistent Across All Comparisons)
 1. **Transparent, public pricing** — no sales calls, no consultants, no opaque quotes
 2. **No contracts** — cancel/adjust anytime, no penalties
