@@ -1,0 +1,37 @@
+name: Marketing Page Re-scrape
+
+on:
+  schedule:
+    # January 15 and July 15, 10am ET (14:00 UTC)
+    - cron: '0 14 15 1 *'
+    - cron: '0 14 15 7 *'
+  workflow_dispatch:  # Allow manual trigger anytime
+
+jobs:
+  rescrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic trafilatura lxml_html_clean
+
+      - name: Re-scrape marketing pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/rescrape-pages.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/page-rescrape-${{ github.run_number }}
+          title: "Semi-annual marketing page re-scrape"
+          body-path: /tmp/pr_body.md
+          labels: rescrape,auto-update
+          commit-message: "Re-scrape marketing pages [skip ci]"
+          delete-branch: true
