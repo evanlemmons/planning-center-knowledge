@@ -22,7 +22,7 @@ Load files on-demand based on what you need. Do NOT load everything at once.
 | `blog-recent.md` | Recent blog posts with summaries (rolling ~12 months) |
 | `changelog-recent.md` | Development changelog by product (rolling ~12 months) |
 | `products/*.md` | Individual product deep-dives (12 files) |
-| `raw/*.md` | Raw marketing page captures (reference only) |
+| `raw/*.md` | Cleaned marketing page captures — essential product knowledge only (see `raw/README.md` for content standards) |
 
 ### Loading Strategy
 

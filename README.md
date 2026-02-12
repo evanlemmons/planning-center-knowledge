@@ -62,7 +62,7 @@ Download the files and drop them into an existing project or Claude Project. Sim
 1. **Content corrections** -- Found an inaccuracy? Submit a PR.
 2. **New product knowledge** -- Major feature shipped? Update the relevant `products/*.md` file.
 3. **Glossary additions** -- New term encountered? Add it to `glossary.md`.
-4. **Raw page refreshes** -- Product marketing page changed? Use `scripts/web-capture.py` to re-capture.
+4. **Raw page refreshes** -- Product marketing page changed? Use `scripts/web-capture.py` to re-capture, then clean per `raw/README.md` standards (strip images, CTAs, testimonials, nav, etc.).
 
 ### What belongs here
 - Planning Center company and product information
