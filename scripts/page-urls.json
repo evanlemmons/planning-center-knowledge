@@ -1,0 +1,31 @@
+{
+  "raw": [
+    {"url": "https://www.planningcenter.com", "file": "raw/software-made-to-help-churches-help-people.md"},
+    {"url": "https://www.planningcenter.com/about", "file": "raw/about.md"},
+    {"url": "https://www.planningcenter.com/calendar", "file": "raw/calendar.md"},
+    {"url": "https://www.planningcenter.com/check-ins", "file": "raw/check-ins.md"},
+    {"url": "https://www.planningcenter.com/church-center", "file": "raw/church-center.md"},
+    {"url": "https://www.planningcenter.com/giving", "file": "raw/giving.md"},
+    {"url": "https://www.planningcenter.com/groups", "file": "raw/groups.md"},
+    {"url": "https://www.planningcenter.com/home", "file": "raw/home.md"},
+    {"url": "https://www.planningcenter.com/music-stand", "file": "raw/music-stand.md"},
+    {"url": "https://www.planningcenter.com/people", "file": "raw/people.md"},
+    {"url": "https://www.planningcenter.com/pricing", "file": "raw/pricing.md"},
+    {"url": "https://www.planningcenter.com/publishing", "file": "raw/publishing.md"},
+    {"url": "https://www.planningcenter.com/registrations", "file": "raw/registrations.md"},
+    {"url": "https://www.planningcenter.com/services", "file": "raw/services.md"}
+  ],
+  "reference": [
+    {"url": "https://www.planningcenter.com/pricing", "file": "pricing.md", "label": "Pricing"},
+    {"url": "https://www.planningcenter.com/about", "file": "overview.md", "label": "Company overview"},
+    {"url": "https://www.planningcenter.com/compare-planning-center-to-other-systems", "file": "competitors.md", "label": "Competitive landscape"},
+    {"url": "https://www.planningcenter.com/security", "file": "security-and-compliance.md", "label": "Security"},
+    {"url": "https://www.planningcenter.com/terms", "file": "legal-and-privacy.md", "label": "Terms of Service"},
+    {"url": "https://www.planningcenter.com/privacy", "file": "legal-and-privacy.md", "label": "Privacy Policy"},
+    {"url": "https://www.planningcenter.com/congregant-privacy", "file": "legal-and-privacy.md", "label": "Congregant Privacy"},
+    {"url": "https://www.planningcenter.com/gdpr", "file": "legal-and-privacy.md", "label": "GDPR"},
+    {"url": "https://www.planningcenter.com/getting-started", "file": "onboarding-and-transitions.md", "label": "Getting Started"},
+    {"url": "https://www.planningcenter.com/developers", "file": "developer-platform.md", "label": "Developer platform"},
+    {"url": "https://www.planningcenter.com/integrations", "file": "developer-platform.md", "label": "Integrations"}
+  ]
+}
