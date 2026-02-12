@@ -9,12 +9,14 @@ Church management software serving 90,000+ churches — from 50-member church pl
 ## Company Facts
 - **Founded:** 2006 by Jeff Berg and Aaron Stewart (church staff in Southern California)
 - **HQ:** Carlsbad, California
-- **Team:** 200+ employees, 82% remote across the US, 65% in product & engineering
+- **Team:** 220+ employees, 82% remote across the US, 65% in product & engineering
 - **Scale:** 90,000+ active churches, 4M+ weekly staff/volunteer users, $29B+ in processed donations
 - **Independence:** Bootstrapped, founder-owned, no investors or debt
 - **Foundation:** Ministry Centered Foundation (est. 2024) to ensure permanent independence
 
 ## Product Suite
+
+See `planning-center/products` for detailed information about each product.
 
 ### People & Communication
 | Product | Description | Pricing |
@@ -63,7 +65,9 @@ Church management software serving 90,000+ churches — from 50-member church pl
 - **People** is the foundation — all member data lives here and flows to every other product.
 - **Church Center** is the member-facing layer — it surfaces data from Groups, Giving, Registrations, Services, Check-Ins, and Publishing into a mobile app and website.
 - **Home** is the staff-facing hub — dashboards pull metrics from across all products into one workspace.
-- **Services + Music Stand** pair together — Music Stand is an add-on that requires a Services subscription.
+- **Services + Music Stand** pair together to help musicians rehearse — Music Stand is an add-on that requires a Services subscription.
+- **Calendar** is becoming central to cross-product event management having integrations with other event-based products like Registrations, Groups, and Services.
+- **Automations** can be triggered from almost any event in any product to perform actions elsewhere in the system.
 
 ## Social Media & Community
 
@@ -75,8 +79,7 @@ Church management software serving 90,000+ churches — from 50-member church pl
 | **Instagram** | @PlanningCenter |
 | **YouTube** | youtube.com/PlanningCenter (hosts PCU, New for You) |
 | **LinkedIn** | linkedin.com/company/planningcenter (4,764 followers) |
-| **TikTok** | #planningcenteronline tag (community-created, not official account) |
-| **Church Center (X)** | @churchcenterapp (separate handle for the app) |
+| **TikTok** | #planningcenteronline tag |
 
 ### Private Facebook Group (VERY active — primary user community)
 - **URL:** facebook.com/groups/planningcentercommunity
@@ -94,4 +97,4 @@ Church management software serving 90,000+ churches — from 50-member church pl
 
 ## Product Page Reference
 Each product's detailed features: `products/{product-name}.md`
-Raw marketing captures: `raw/{product-name}.md`
+Raw marketing site captures: `raw/{product-name}.md`
