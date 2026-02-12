@@ -53,6 +53,11 @@ Download the files and drop them into an existing project or Claude Project. Sim
 - When new blog posts or changelog entries are detected, an AI-powered script fetches the content, updates the relevant markdown files, and opens a PR
 - PRs are reviewed before merging to ensure quality
 
+### Automated (marketing pages)
+- A GitHub Action re-scrapes all tracked marketing pages semi-annually (January & July)
+- Raw pages are cleaned per `raw/README.md` standards; curated reference pages are compared and flagged for review
+- URLs are managed in `scripts/page-urls.json` — add/remove pages there as needed
+
 ### Manual (product docs, competitive analysis, etc.)
 - Submit a PR with your changes
 - Product files should follow the existing format (see any `products/*.md` for examples)
@@ -92,7 +97,12 @@ Download the files and drop them into an existing project or Claude Project. Sim
 ├── blog-recent.md         # Auto-updated
 ├── changelog-recent.md    # Auto-updated
 ├── products/              # 12 product deep-dives
-├── raw/                   # Raw web captures (reference)
+├── raw/                   # Cleaned marketing page captures
+│   └── README.md          # Content cleaning standards (KEEP/STRIP rules)
 ├── scripts/               # Maintenance tools
+│   ├── page-urls.json     # URL manifest for semi-annual re-scrape
+│   ├── rescrape-pages.py  # AI-powered page re-scrape + clean
+│   ├── update-content.py  # AI-powered blog/changelog updater
+│   └── web-capture.py     # Manual web page capture tool
 └── .github/workflows/     # Automation
 ```

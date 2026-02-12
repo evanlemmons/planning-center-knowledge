@@ -33,9 +33,10 @@ Load files on-demand based on what you need. Do NOT load everything at once.
 
 ### Content Freshness
 
-- `blog-recent.md` and `changelog-recent.md` are updated automatically when new posts are detected
-- Product files and other curated content are updated via pull requests (automated or manual)
-- Check the "Last Updated" line at the top of each file for currency
+- `blog-recent.md` and `changelog-recent.md` are updated automatically when new posts are detected (Mon & Thu)
+- `raw/*.md` pages are re-scraped and cleaned semi-annually (Jan & Jul) via `scripts/rescrape-pages.py`
+- Curated reference files (pricing, legal, competitors, etc.) are flagged for manual review during re-scrapes
+- Check the "Last Updated" or "Captured" date at the top of each file for currency
 
 ## For Contributors
 
