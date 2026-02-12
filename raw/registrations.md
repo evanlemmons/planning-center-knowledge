@@ -1,330 +1,86 @@
 <!-- Source: https://www.planningcenter.com/registrations | Captured: 2026-02-11 -->
-# registrations
+# Registrations
 
-[](https://www.planningcenter.com/)
-Products
-People & Communication
-  * [ people Free membership database ](https://www.planningcenter.com/people)
-  * [ groups Community engagement & chat ](https://www.planningcenter.com/groups)
+Create custom signups for all your church events. Simplify signups, coordinate event details, accept payments — and save money you can put back into your ministry.
 
+## Custom Event Signups
 
-Events
-  * [ calendar Scheduling, facilities, & resources ](https://www.planningcenter.com/calendar)
-  * [ registrations Signups, tickets, & payments ](https://www.planningcenter.com/registrations)
-  * [ check-ins Attendance & volunteer tools ](https://www.planningcenter.com/check-ins)
+Build flexible signups that capture all the details for VBS, camps, retreats, and more.
 
+- **Attendee categories:** Present registration categories (leader, volunteer, participant) or demographics (child, adult, school grade). Tailor the signup for each attendee type
+- **Attendance caps:** Set maximum capacity and let attendees select number of people coming
+- **Household signups:** Allow families to register together
+- **Bonus purchase options:** Include optional extras like shirts, books, or additional activities (arts and crafts, horseback riding at camp)
 
-Worship & Teams
-  * [ services Worship planning & scheduling ](https://www.planningcenter.com/services)
-  * [ music stand Digital sheet music & chord charts ](https://www.planningcenter.com/music-stand)
+## Simple Event Signups
 
+Streamlined signups for potlucks, service projects, or conferences.
 
-Mobile App & Website
-  * [ church center Custom mobile app for your church ](https://www.planningcenter.com/church-center)
-  * [ publishing Custom pages, video, & audio library ](https://www.planningcenter.com/publishing)
+- **Basic headcount:** People simply select how many people they're bringing or how many tickets they need
+- **Multiple event times:** Sign up for a specific date or time
+- **Waitlists:** Allow people to sign up for full events and be added if there's an opening
 
+## Payments
 
-Donations
-  * [ giving Tithes, offerings, & reporting ](https://www.planningcenter.com/giving)
+Let people pay online, in-person, or with a minimum deposit upfront. Provide discounts and scholarships for anyone in need.
 
+**Processing fees (powered by Stripe):** Only Stripe's processing fee applies — no additional Planning Center fees beyond your subscription.
 
-system tools
-[ home Dashboard & task management ](https://www.planningcenter.com/home)
+- USA: 2.15% + $0.30 (credit/debit card); 0% + $0.30 (ACH)
+- Canada: 2.2% + $0.30 for registered charities (domestic Visa/MC); otherwise Stripe standard rates
+- Australia: 1.4% + $0.30 AUD (domestic Visa/MC); 1.75% + $0.30 AUD (AMEX); 2.9% + $0.30 AUD (international); 0% + $0.50 AUD (BECS)
+- New Zealand: 2.5% + $0.30 NZD (domestic Visa/MC); 2.7% + $0.30 NZD (AMEX); 2.9% + $0.30 NZD (international)
 
-More
-  * [ Changelog New features every week ](https://www.planningcenter.com/changelog)
-  * [ Integrations Products that work with ours ](https://www.planningcenter.com/integrations)
-  * [ Get Giving free for 12 months Apply for 12 months free ](https://www.planningcenter.com/giving/free)
+## Mobile (Church Center)
 
+People can view, sign up, and pay for events from Church Center (mobile app and website) alongside other activities like giving, group chat, and volunteer scheduling.
 
-Resources
-Learn & get help
-  * [ Support Helpful responses in ~1 hour ](https://www.planningcenter.com/support)
-  * [ Training Learn how to use the system ](https://www.planningcenter.com/training)
-    * [Planning Center University videos](https://www.planningcenter.com/university)
-    * [How-to articles](https://support.planningcenteronline.com/)
-  * [ Community Connect with customers in our user community ](https://www.planningcenter.com/community)
+## Attendee Management
 
+Sort attendees automatically into groups (bus/cabin at camp, age-specific VBS crew, table at dinner) based on registration info. Keep events organized and running smoothly.
 
-Switch to Planning Center
-  * [ Compare systems How we can replace your current solution ](https://www.planningcenter.com/compare-planning-center-to-other-systems)
-  * [ Calculate savings See how much you’ll save on giving fees ](https://www.planningcenter.com/processing-fee)
-  * [ Getting started A roadmap to migration ](https://www.planningcenter.com/getting-started)
+## Attendance & Check-In
 
+Take event attendance and check people in. Know exactly who's there and print name tags.
 
-Use cases
-  * [ Children’s ministry Care for families & volunteers ](https://www.planningcenter.com/use-cases/childrens-ministry)
-  * [ Church management system Equip your team, support your church ](https://www.planningcenter.com/use-cases/chms)
-  * [ Church planters Apply for 6 months free ](https://www.planningcenter.com/use-cases/church-planters)
-  * [![Multi-campus](https://www.planningcenter.com/_next/image?url=%2Fimages%2Ficons%2Fmultisite.png&w=64&q=75) Multicampus churches Reach and resource every campus ](https://www.planningcenter.com/use-cases/multicampus-churches)
-  * [ Worship planning Service planning and volunteer scheduling ](https://www.planningcenter.com/use-cases/worship-planning)
+## System Integration
 
+Connect signups to Planning Center's full system to streamline communication, organize information, and foster engagement. Add signups to a central church-facing calendar.
 
-[What’s new](https://www.planningcenter.com/blog)[Pricing](https://www.planningcenter.com/pricing)
-[Sign up](https://www.planningcenter.com/pricing)[Log in](https://login.planningcenteronline.com/)
-![background gradient](https://a-us.storyblok.com/f/1002845/2086x2007/e13cb6bec9/registrations-gradient-desktop.jpg/m/filters:format\(webp\):quality\(80\))
-![](https://a-us.storyblok.com/f/1002845/345x53/77cb9fe06f/registrations-badge.svg)
-# Create custom signups for all your church events
-Registrations helps you simplify signups, coordinate event details, accept payments—and save money you can put back into your ministry. 
-  * [Start a free trial](https://www.planningcenter.com/registrations#pricing)
-  * Watch our video
+## Additional Features
 
+- **Reports:** Overview of event details, print guest lists, export as CSV
+- **Attachable forms:** Collect required documentation (medical release forms, signed PDFs)
+- **Event emails and reminders:** Email attendees with balance-due reminders, event details, incomplete info reminders
+- **Permission levels:** Secure attendee data with appropriate permission levels
+- **Church calendar signups:** Add signups to a central, church-facing calendar
 
-Jump to:
-  * [![](https://a-us.storyblok.com/f/1002845/22x22/a7bb3fa01d/star.svg)Features](https://www.planningcenter.com/registrations#features)
-  * [![](https://a-us.storyblok.com/f/1002845/20x20/2d47908a92/pricing.svg)Pricing](https://www.planningcenter.com/registrations#pricing)
-  * [![](https://a-us.storyblok.com/f/1002845/24x24/def65d38fd/support.svg)Support](https://www.planningcenter.com/registrations#support)
+## FAQ
 
+**What kind of signups can I take?**
+Any kind — from detailed paid registrations for retreats and camps to simple headcounts for potlucks.
 
-![](https://a-us.storyblok.com/f/1002845/2168x1678/805ff85b5a/registrations-hero-illustration-phoenix.png/m/967x0/filters:format\(webp\):quality\(80\))
-![](https://a-us.storyblok.com/f/1002845/2396x1570/079139372a/mobile-hero-illustration-registrations-phoenix.png/m/967x0/filters:format\(webp\):quality\(80\))
-  * [Start a free trial](https://www.planningcenter.com/registrations#pricing)
-  * Watch our video
+**How can I collect payments?**
+Accept online payments through Stripe. Also accept check or cash and record them manually.
 
+**Can I use a different payment processor?**
+Stripe is the only supported processor. Transactions from other systems can be added manually.
 
-Jump to:
-  * [![](https://a-us.storyblok.com/f/1002845/22x22/a7bb3fa01d/star.svg) Features](https://www.planningcenter.com/registrations#features)
-  * [![](https://a-us.storyblok.com/f/1002845/20x20/2d47908a92/pricing.svg) Pricing](https://www.planningcenter.com/registrations#pricing)
-  * [![](https://a-us.storyblok.com/f/1002845/24x24/def65d38fd/support.svg) Support](https://www.planningcenter.com/registrations#support)
+**Does Registrations work in my country?**
+Available worldwide, but event payments are only available in the USA and Canada.
 
+## Pricing
 
-Trusted by
-over 90,000 churches 
-![logo of the river church](https://a-us.storyblok.com/f/1002845/198x40/4c1e78d48b/the-river-church.svg)
-![logo of fellowship church](https://a-us.storyblok.com/f/1002845/166x40/b7b26f59c7/fellowship-church.svg)
-![logo of Newspring church](https://a-us.storyblok.com/f/1002845/170x34/119921a557/newspring-church-logo-1-1.svg)
-![Logo of stonegate church](https://a-us.storyblok.com/f/1002845/180x39/47dd5f472a/stonegate.svg)
-## CUSTOMIZE YOUR EVENT SIGNUPS
-Build flexible signups that capture all the details of every unique event.
-Coordinate the details for VBS, camps, retreats, and much more.
-### Attendee categories
-Present categories people can register for, such as a role—like leader, volunteer, or participant—or a demographic—like child, adult, or school grade. Then tailor the signup to be what you need from that type of attendee.
-### Attendance caps
-Set a maximum capacity for each event and let attendees select the number of people coming.
-### Household signups
-Allow families to register for events together so they can all get—and stay—connected to the life of your church.
-### Bonus purchase options
-Include optional extras for purchase, like shirts or books, or any additional activities people want to participate in, like arts and crafts or horseback riding at camp.
-### Attendee categories
-Present categories people can register for, such as a role—like leader, volunteer, or participant—or a demographic—like child, adult, or school grade. Then tailor the signup to be what you need from that type of attendee.
-![A signup for an event with a list of the different age groups who can sign up for the VBS event.](https://a-us.storyblok.com/f/1002845/1275x973/a04321db2b/basic-information-image.png/m/filters:format\(webp\):quality\(80\))
-### Attendance caps
-Set a maximum capacity for each event and let attendees select the number of people coming.
-![An event signup showing that there are only a certain number of people allowed in each category.](https://a-us.storyblok.com/f/1002845/1275x973/7cae85e57d/attendance-caps-1.png/m/filters:format\(webp\):quality\(80\))
-### Household signups
-Allow families to register for events together so they can all get—and stay—connected to the life of your church.
-![An event signup showing how people can register multiple people from a household for an event.](https://a-us.storyblok.com/f/1002845/1275x973/3c503af35d/household-signups.png/m/filters:format\(webp\):quality\(80\))
-### Bonus purchase options
-Include optional extras for purchase, like shirts or books, or any additional activities people want to participate in, like arts and crafts or horseback riding at camp.
-![An event signup showing how people can add purchases to their registration, like a camp t-shirt.](https://a-us.storyblok.com/f/1002845/1275x973/9bd1e6ed9f/bonus-purchase-options.png/m/filters:format\(webp\):quality\(80\))
-![A signup for an event with a list of the different age groups who can sign up for the VBS event.](https://a-us.storyblok.com/f/1002845/1275x973/a04321db2b/basic-information-image.png/m/filters:format\(webp\):quality\(80\))
-## SIMPLIFY YOUR EVENT SIGNUPS
-Make streamlined signups for simple events.
-Plan for your potlucks, service projects, or conferences by only requesting a headcount.
-### Basic information
-Let people simply select how many people they’re bringing or how many tickets they need.
-### Multiple event times
-Provide the option for people to sign up for a specific date or time for an event.
-### Waitlists
-Allow people to sign up for a full event and be added if there’s an opening.
-### Basic information
-Let people simply select how many people they’re bringing or how many tickets they need.
-![An example of a simple event signup showing registration options for selecting multiple adults and kids.](https://a-us.storyblok.com/f/1002845/1275x973/55931ed1e9/basic-information-image.png/m/filters:format\(webp\):quality\(80\))
-### Multiple event times
-Provide the option for people to sign up for a specific date or time for an event.
-![An example of an online event signup with multiple time slots available that people can select from.](https://a-us.storyblok.com/f/1002845/1275x973/ac916644a5/multiple-events-image.png/m/filters:format\(webp\):quality\(80\))
-### Waitlists
-Allow people to sign up for a full event and be added if there’s an opening.
-![An online event signup showing there is a waitlist for adult attendees.](https://a-us.storyblok.com/f/1002845/1275x973/365f030ade/waitlist-image.png/m/filters:format\(webp\):quality\(80\))
-![An example of a simple event signup showing registration options for selecting multiple adults and kids.](https://a-us.storyblok.com/f/1002845/1275x973/55931ed1e9/basic-information-image.png/m/filters:format\(webp\):quality\(80\))
-![Flotting card](https://www.planningcenter.com/_next/image?url=%2Fimages%2Fregistrations%2Fregistrations-credit-cards.png&w=1080&q=75)
-## ACCEPT MULTIPLE PAYMENT OPTIONS
-Give more ways to pay.
-Let people make event payments online, in-person, or with a minimum down upfront. 
-You can also provide discounts and scholarships for anyone in need to help bring down their total cost.
-[Start a free trial](https://www.planningcenter.com/registrations#pricing)
-![A mobile phone showing an event signup for VBS with a discount code available during payment.](https://a-us.storyblok.com/f/1002845/358x602/36b3c1eacf/accept-multiple-payment-options.svg)
-## KEEP TRANSACTION FEES DOWN
-Save money with low processing fees.
-Spend less to process online payments.
-Online event payments are powered by Stripe—an easy-to-use payment processor—and their processing fee is the only one tied to Registrations. Planning Center only charges your flat-rate monthly subscription.
-[Start a free trial](https://www.planningcenter.com/registrations#pricing)
-USD Fees
-CAD Fees
-Planning Center Discounted Rate
-  * 2.15% + $0.30/donation for credit and debit card donations
+30 days free | No setup fees | Cancel anytime
 
+Priced by the number of attendees registered for your biggest event. Change your plan seasonally as needed.
 
-## POST EVENT SIGNUPS ON MOBILE
-Share signups on your church app and website.
-People can view, sign up, and pay for events from your custom mobile app and website—Church Center.
-Signups can happen alongside other activities too, like giving, chatting with group members, or managing their volunteer schedule—all from a single, central place! It’s included in any Planning Center subscription.
-[Get started](https://www.planningcenter.com/registrations#pricing)
-![A mobile phone showing an online event signup for Spring Retreat for a specific age group.](https://a-us.storyblok.com/f/1002845/561x634/4953e9afbe/post-event-signups-on-mobile.svg)
-## MANAGE YOUR ATTENDEE GROUPS
-Organize attendees to areas.
-Sort people automatically into groups—like a certain bus or cabin at camp, an age-specific VBS crew, or a table at a dinner event—based on the registration information they submit. By easily designating categories for your attendees, you can keep your event organized and running smoothly.
-[Get started](https://www.planningcenter.com/registrations#pricing)
-![A screen showing different kids who have signed up for an event organized into groups.](https://a-us.storyblok.com/f/1002845/1278x874/567c539b10/organize-attendees-to-areas-1.png/m/623x0/filters:format\(webp\):quality\(80\))
-## GET AN ATTENDEE HEADCOUNT
-Take event attendance and check people in.
-Take attendance to know exactly who’s there, what’s needed, and print name tags.
-[Start a free trial](https://www.planningcenter.com/registrations#pricing)
-![A list of children who have signed up for VBS being checked in to the event with Planning Center Check-Ins.](https://a-us.storyblok.com/f/1002845/1280x960/3b56128fe2/take-event-attendance-1.png/m/623x0/filters:format\(webp\):quality\(80\))
-## A COMPLETE CHURCH MANAGEMENT SYSTEM
-Connect signups to an all-in-one system.
-Use Planning Center’s full church management system to streamline communication, organize information, and foster engagement within your church.
-With different products on a connected platform, you can use what you need for each of your ministries to keep everyone in your church informed about what’s going on. 
-[Start a free trial](https://www.planningcenter.com/registrations#pricing)
-![Illustration of all the logos of Planning Center products around a mobile phone.](https://a-us.storyblok.com/f/1002845/577x750/5c2665cd08/all-in-one-system.svg)
-## More you can do with Registrations
-  * ### Reports
-Get an overview of all event details, print a guest list, or export as a CSV.
-  * ### Attachable forms
-Collect required details and documentation, a medical release form, or a PDF to be printed and signed.
-  * ### Event emails and reminders
-Email registered attendees or main registration contacts with balance-due reminders, event details, and incomplete information reminders.
-  * ### Permission levels
-Secure attendees’ data and protect their privacy by assigning appropriate permission levels to users.
-  * ### Church calendar signups
-Add signups to a central, church-facing calendar so people know what events are coming up!
-
-
-## Frequently asked questions about Registrations
-For in person questions, contact [support](https://www.planningcenter.com/support).
-### What kind of signups can I take in Registrations?
-Take any kind of signup in Registrations—whether you need to collect payments and detailed attendee information for retreats or camps, or just get a headcount for a potluck. 
-### How can I collect payments for online signups?
-Accept online payments through [Stripe](https://stripe.com)—an easy-to-use payment processor. You can also accept payments by check or cash and record them manually.
-### Can I use a different payment processor than Stripe, like PayPal?
-Stripe is the only payment processor supported by Planning Center. However, transactions from other payment systems can be added manually.
-### Does Registrations work in my country?
-Registrations is available worldwide, but event payments are only available in the USA and Canada.
-## Plans and pricing
-Registrations is priced by the number of attendees registered for your biggest event. You can change your plan seasonally as needed. Online payments are processed at the lowest rate available by Stripe.
-5
-Attendees per event
-Free
-[Select plan](https://accounts.planningcenteronline.com/packages/57?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-20
-Attendees per event
-$15/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/59?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-50
-Attendees per event
-$32/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/176?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-150
-Attendees per event
-$69/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/141?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-400
-Attendees per event
-$115/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/177?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-1000
-Attendees per event
-$179/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/178?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-5000
-Attendees per event
-$239/mo.
-[Select plan](https://accounts.planningcenteronline.com/packages/69?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-*Planning Center pricing is in USD currency.
-Low Processing Fees
-All online donations are powered by Stripe—an easy-to-use payment processor with no setup fees, monthly minimums, or cancellation fees.
-USA
-  * 2.15% + $0.30/donation for credit and debit card donations
-  * 0% + $0.30 per ACH bank transfer donation
-
-
-CA
-Registered Canadian charities can receive discounted rates of 2.2% + $0.30/donation for domestic Visa/MC cards by [providing evidence of their non-profit status](https://support.stripe.com/questions/fee-discount-for-non-profit-organizations). Otherwise, Stripe's [standard Canadian rates](https://stripe.com/en-ca/pricing) apply.
-Australia
-  * Visa, Mastercard, and non-AMEX domestic cards: 1.4% + $0.30 AUD
-  * AMEX domestic cards: 1.75% + $0.30 AUD
-  * International cards: 2.9% + $0.30 AUD
-  * BECS Direct Debit: 0% + $0.50 AUD
-
-
-New Zealand
-  * Visa, Mastercard, and non-AMEX domestic cards: 2.5% + $0.30 NZD
-  * AMEX domestic cards: 2.7% + $0.30 NZD
-  * International cards: 2.9% + $0.30 NZD
-
-
-## Watch a Registrations demo
-See an overview of how you can use Registrations in your ministry with a video walk-through from a product expert.
-### Talk to support
-Access to support is free, even if you’re not a customer yet. We’ll get back to you in ~1 business hour.
-[Learn more about support options](https://www.planningcenter.com/support)
-### See the latest update
-We are constantly improving our products. Check out the most recent update to see what’s new!
-[Read the blog](https://www.planningcenter.com/blog "Read our latest blog post")
-[](https://www.planningcenter.com/)
-Get updates delivered to your inbox!
-  * [](https://twitter.com/PlanningCenter)
-  * [](https://www.facebook.com/PlanningCenter)
-  * [](https://www.instagram.com/PlanningCenter)
-  * [](https://youtube.com/PlanningCenter)
-
-
-  * Products
-    * [Calendar](https://www.planningcenter.com/calendar)
-    * [Check-ins](https://www.planningcenter.com/check-ins)
-    * [Giving](https://www.planningcenter.com/giving)
-    * [Groups](https://www.planningcenter.com/groups)
-    * [People](https://www.planningcenter.com/people)
-    * [Publishing](https://www.planningcenter.com/publishing)
-    * [Registrations](https://www.planningcenter.com/registrations)
-    * [Services](https://www.planningcenter.com/services)
-    * [Music Stand](https://www.planningcenter.com/music-stand)
-    * [ Church Center](https://www.planningcenter.com/church-center)
-
-
-  * Resources
-    * [Support](https://www.planningcenter.com/support)
-    * [Training](https://www.planningcenter.com/training)
-    * [Planning Center University](https://www.planningcenter.com/university)
-    * [Getting Started](https://www.planningcenter.com/getting-started)
-    * [Community](https://www.planningcenter.com/community)
-
-
-  * Use cases
-    * [Children’s Ministry](https://www.planningcenter.com/use-cases/childrens-ministry)
-    * [Church Management System](https://www.planningcenter.com/use-cases/chms)
-    * [Church Planters](https://www.planningcenter.com/use-cases/church-planters)
-    * [Multicampus Churches](https://www.planningcenter.com/use-cases/multicampus-churches)
-    * [Worship Planning](https://www.planningcenter.com/use-cases/worship-planning)
-
-
-  * How we compare
-    * [See Processing Fee Savings](https://www.planningcenter.com/processing-fee#calculate-fees)
-    * [Compare Pushpay](https://www.planningcenter.com/compare-planning-center-vs-pushpay)
-    * [Compare Tithe.ly](https://www.planningcenter.com/compare-planning-center-vs-tithely)
-    * [Compare Breeze](https://www.planningcenter.com/compare-planning-center-vs-breeze)
-    * [Compare ChurchTrac](https://www.planningcenter.com/compare-planning-center-vs-churchtrac)
-
-
-  * Company
-    * [About us](https://www.planningcenter.com/about)
-    * [Careers](https://www.planningcenter.com/careers)
-    * [Developers](https://www.planningcenter.com/developers)
-    * [Logos](https://www.planningcenter.com/logos)
-    * [Terms of Service](https://www.planningcenter.com/terms)
-    * [Privacy Policy](https://www.planningcenter.com/privacy)
-    * [Manage your cookies](https://www.planningcenter.com/registrations)
-
-
-  * [Pricing](https://www.planningcenter.com/pricing)
-  * [Changelog](https://www.planningcenter.com/changelog)
-  * [What's new](https://www.planningcenter.com/blog)
-  * [Security](https://www.planningcenter.com/security)
-  * [Status](https://status.planningcenter.com/)
-  * [Downloads](https://www.planningcenter.com/check-ins/download)
-  * [Apply for a free  
-Giving subscription](https://www.planningcenter.com/giving/free)
-
-
-![AICPA SOC](https://www.planningcenter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsoc.fc7d03d1.png&w=96&q=90)
-[Terms of Service](https://www.planningcenter.com/terms)[Privacy Policy](https://www.planningcenter.com/privacy)
+| Attendees/event | Price |
+|-----------------|-------|
+| 5 | Free |
+| 20 | $15/mo |
+| 50 | $32/mo |
+| 150 | $69/mo |
+| 400 | $115/mo |
+| 1,000 | $179/mo |
+| 5,000 | $239/mo |

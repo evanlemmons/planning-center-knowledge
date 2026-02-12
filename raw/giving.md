@@ -1,326 +1,105 @@
 <!-- Source: https://www.planningcenter.com/giving | Captured: 2026-02-11 -->
-# giving
+# Giving
 
-[](https://www.planningcenter.com/)
-Products
-People & Communication
-  * [ people Free membership database ](https://www.planningcenter.com/people)
-  * [ groups Community engagement & chat ](https://www.planningcenter.com/groups)
+Make it easy for people to give. Giving helps you accept and process donations, track trends, and issue statements.
 
+## Online Donation Channels
 
-Events
-  * [ calendar Scheduling, facilities, & resources ](https://www.planningcenter.com/calendar)
-  * [ registrations Signups, tickets, & payments ](https://www.planningcenter.com/registrations)
-  * [ check-ins Attendance & volunteer tools ](https://www.planningcenter.com/check-ins)
+**Online (via Church Center app or website):**
+- Credit or debit card
+- Apple Pay
+- ACH bank transfer
+- Text-to-give
 
+**In-Person:**
+- Cash (count and enter manually)
+- Check (digital reader to process)
 
-Worship & Teams
-  * [ services Worship planning & scheduling ](https://www.planningcenter.com/services)
-  * [ music stand Digital sheet music & chord charts ](https://www.planningcenter.com/music-stand)
+## Mobile App Integration
 
+People can give, see donation history, and receive online statements from Church Center (mobile app and website). Giving happens alongside other activities like group chat, volunteer scheduling, and event signups.
 
-Mobile App & Website
-  * [ church center Custom mobile app for your church ](https://www.planningcenter.com/church-center)
-  * [ publishing Custom pages, video, & audio library ](https://www.planningcenter.com/publishing)
+## Processing Fees
 
+All online donations powered by Stripe — no setup fees, monthly minimums, or cancellation fees. Planning Center only charges your flat-rate monthly subscription (no additional fees beyond Stripe processing).
 
-Donations
-  * [ giving Tithes, offerings, & reporting ](https://www.planningcenter.com/giving)
+**USA:**
+- Credit/debit card: 2.15% + $0.30/donation
+- ACH bank transfer: 0% + $0.30/donation
 
+**Canada:**
+- Registered charities: 2.2% + $0.30/donation (domestic Visa/MC)
+- Otherwise: Stripe standard rates
 
-system tools
-[ home Dashboard & task management ](https://www.planningcenter.com/home)
+**Australia:**
+- Visa/MC/non-AMEX domestic: 1.4% + $0.30 AUD
+- AMEX domestic: 1.75% + $0.30 AUD
+- International: 2.9% + $0.30 AUD
+- BECS Direct Debit: 0% + $0.50 AUD
 
-More
-  * [ Changelog New features every week ](https://www.planningcenter.com/changelog)
-  * [ Integrations Products that work with ours ](https://www.planningcenter.com/integrations)
-  * [ Get Giving free for 12 months Apply for 12 months free ](https://www.planningcenter.com/giving/free)
+**New Zealand:**
+- Visa/MC/non-AMEX domestic: 2.5% + $0.30 NZD
+- AMEX domestic: 2.7% + $0.30 NZD
+- International: 2.9% + $0.30 NZD
 
+## Fund Management
 
-Resources
-Learn & get help
-  * [ Support Helpful responses in ~1 hour ](https://www.planningcenter.com/support)
-  * [ Training Learn how to use the system ](https://www.planningcenter.com/training)
-    * [Planning Center University videos](https://www.planningcenter.com/university)
-    * [How-to articles](https://support.planningcenteronline.com/)
-  * [ Community Connect with customers in our user community ](https://www.planningcenter.com/community)
+- Set up funds for various budgets so people can designate where to give
+- Accept pledges toward specific projects (building fund, missions) and track progress
 
+## Donation Reporting
 
-Switch to Planning Center
-  * [ Compare systems How we can replace your current solution ](https://www.planningcenter.com/compare-planning-center-to-other-systems)
-  * [ Calculate savings See how much you’ll save on giving fees ](https://www.planningcenter.com/processing-fee)
-  * [ Getting started A roadmap to migration ](https://www.planningcenter.com/getting-started)
+Filter data by fund type, donation type, timeframe, and campus.
 
+**Dashboard views:**
+- **Dashboard:** Big-picture view; share anonymized info with elders, pastors, or congregation
+- **Donations List:** All giving records with donor, fund, amount, type, and date
+- **Recurring Donations:** View all recurring giving
+- **Donor Reports:** Generate by date range, donor type (new/recurring), fund type, or labels
+- **Pledge Campaigns:** Track pledge progress toward specific projects
+- **Stripe Payouts:** View payment processing details
 
-Use cases
-  * [ Children’s ministry Care for families & volunteers ](https://www.planningcenter.com/use-cases/childrens-ministry)
-  * [ Church management system Equip your team, support your church ](https://www.planningcenter.com/use-cases/chms)
-  * [ Church planters Apply for 6 months free ](https://www.planningcenter.com/use-cases/church-planters)
-  * [![Multi-campus](https://www.planningcenter.com/_next/image?url=%2Fimages%2Ficons%2Fmultisite.png&w=64&q=75) Multicampus churches Reach and resource every campus ](https://www.planningcenter.com/use-cases/multicampus-churches)
-  * [ Worship planning Service planning and volunteer scheduling ](https://www.planningcenter.com/use-cases/worship-planning)
+## Donation Receipts & Statements
 
+- Generate automatically; deliver individually or jointly
+- Send by mail or email
+- People can view giving records and statements online from Church Center profile
 
-[What’s new](https://www.planningcenter.com/blog)[Pricing](https://www.planningcenter.com/pricing)
-[Sign up](https://www.planningcenter.com/pricing)[Log in](https://login.planningcenteronline.com/)
-![background gradient](https://a-us.storyblok.com/f/1002845/2574x2148/0e99b14aa9/giving-gradient.jpg/m/filters:format\(webp\):quality\(80\))
-![](https://a-us.storyblok.com/f/1002845/201x54/a312400001/color-giving-badge.svg)
-# Make it easy for people to give
-Giving can help you accept and process donations, track trends, and issue statements.
-  * [Start a free trial](https://www.planningcenter.com/giving#pricing)
-  * Watch our video
+## Additional Features
 
+- **Export data:** CSV or print-friendly format
+- **Cover processing fees:** Allow donors to pay processing fees on their donation
+- **Data security:** Rigorous permissions structure
+- **In-kind donations:** Track non-cash gifts (stocks, furniture, vehicles, services)
+- **Automatic card updates:** Stripe auto-updates cards when they expire
+- **Forecast recurring donations:** Estimate next month's income
 
-[Use Giving free](https://www.planningcenter.com/giving/free) while you're under contract with another company.
-Jump to:
-  * [![](https://a-us.storyblok.com/f/1002845/22x22/a7bb3fa01d/star.svg)Features](https://www.planningcenter.com/giving#features)
-  * [![](https://a-us.storyblok.com/f/1002845/20x20/2d47908a92/pricing.svg)Pricing](https://www.planningcenter.com/giving#pricing)
-  * [![](https://a-us.storyblok.com/f/1002845/24x24/def65d38fd/support.svg)Support](https://www.planningcenter.com/giving#support)
+## FAQ
 
+**Can I import donor history?**
+Yes — manually enter donations, build an integration using the API, or check if your current provider has a Giving integration. Import contact info into People.
 
-![](https://a-us.storyblok.com/f/1002845/2164x1542/ffbb2cc059/hero-illustration-giving-phoenix.png/m/1018x0/filters:format\(webp\):quality\(80\))
-![](https://a-us.storyblok.com/f/1002845/2396x1570/6098de9fb2/mobile-hero-illustration-giving.png/m/1018x0/filters:format\(webp\):quality\(80\))
-  * [Start a free trial](https://www.planningcenter.com/giving#pricing)
-  * Watch our video
+**Will Giving replace my general ledger?**
+No. Giving tracks donations only. CSV exports can be imported into most accounting software.
 
+**Can I use a different payment processor?**
+Stripe is the only supported processor. Donations from other systems can be added manually via Batches or the Giving API.
 
-[Use Giving free](https://www.planningcenter.com/giving/free) while you're under contract with another company.
-Jump to:
-  * [![](https://a-us.storyblok.com/f/1002845/22x22/a7bb3fa01d/star.svg) Features](https://www.planningcenter.com/giving#features)
-  * [![](https://a-us.storyblok.com/f/1002845/20x20/2d47908a92/pricing.svg) Pricing](https://www.planningcenter.com/giving#pricing)
-  * [![](https://a-us.storyblok.com/f/1002845/24x24/def65d38fd/support.svg) Support](https://www.planningcenter.com/giving#support)
+**Does Giving work in my country?**
+Available in USA, Canada, Australia, and New Zealand with local currency. Card donations in all 4 countries; direct debit (bank transfer) in USA and Australia only.
 
+## Pricing
 
-Trusted by
-over 90,000 churches 
-![logo of the river church](https://a-us.storyblok.com/f/1002845/198x40/4c1e78d48b/the-river-church.svg)
-![logo of fellowship church](https://a-us.storyblok.com/f/1002845/166x40/b7b26f59c7/fellowship-church.svg)
-![logo of Newspring church](https://a-us.storyblok.com/f/1002845/170x34/119921a557/newspring-church-logo-1-1.svg)
-![Logo of stonegate church](https://a-us.storyblok.com/f/1002845/180x39/47dd5f472a/stonegate.svg)
-## ONLINE CHURCH DONATIONS
-Accept all donation types—online giving and in person.
-People can give online and through your church’s mobile app via credit or debit card, Apple Pay, ACH bank transfer, and text-to-give.
-Congregants can also give in person via cash or check. Count cash donations and enter them manually, and use a digital reader to process checks!
-[Start a free trial](https://www.planningcenter.com/giving#pricing)
-![A giving modal on desktop showing a general donation of $50 and a giving screen of a $5 on a mobile app using Apple Pay.](https://a-us.storyblok.com/f/1002845/700x621/8a44cc34d5/accept-all-donation-types.svg)
-It was important for us to use more of our resources on the mission of the church, rather than dues and processing fees. Planning Center Giving has saved us over $26,000 a year since we left our contracts with another donation platform!
-Steven Terrones
-Assistant Director of Finance at ChurchLV
-## MOBILE CHURCH APP
-Make it easy for people to give from your custom church app.
-People can give, see their donation history, and receive online statements right from [Church Center](https://planningcenter.com/church-center)—a mobile app and website where congregants can engage with your church.
-With everything in a central place, congregants can give right alongside other activities, like chatting with their group, managing their volunteer schedule, and more.
-[Start a free trial](https://www.planningcenter.com/giving#pricing)
-![A list of recurring donations to different church funds within someone's profile on a mobile app.](https://a-us.storyblok.com/f/1002845/900x1241/6094d9b3b2/custom-church-app.png/m/494x0/filters:format\(webp\):quality\(80\))
-## ONLINE PROCESSING FEES
-Save money with low processing fees for online giving.
-All online donations your church accepts through Giving are powered by Stripe—an easy-to-use payment processor with no setup fees, monthly minimums, or cancellation fees.
-Stripe’s processing fee is the only processing fee associated with Giving. Planning Center only charges your flat-rate monthly subscription.
-[Calculate your savings](https://www.planningcenter.com/processing-fee#calculate-fees)
-United States
-Canada
-Australia
-New Zealand
-Planning Center discounted rate
-  * 2.15% + $0.30/donation for credit and debit card donations
-  * 0% + $0.30 per ACH bank transfer donation
+30 days free | No setup fees | Cancel anytime
 
+Flat rate by total number of online and batched donations per month. No additional fees — online donations processed at lowest Stripe rate.
 
-## CHURCH FUND MANAGEMENT
-Organize donations into funds and coordinate pledge campaigns.
-Set up funds for various budgets so people can designate where they want to give. You can also accept pledges towards specific projects—like a new building fund—and track progress as you go!
-[Start a free trial](https://www.planningcenter.com/giving#pricing)
-![Two images showing giving progress towards  a new building campaign and a general fund showing the total all-time donated amount.](https://a-us.storyblok.com/f/1002845/1198x944/d6b924ecf1/giving-feature-3.png/m/599x0/filters:format\(webp\):quality\(80\))
-CHURCH DONATION REPORTING
-## Take a look around.
-See all giving activity from an interactive dashboard and filter data by fund type, donation type, timeframe, and campus. Click through the dashboard to see how it works.
-![Giving dashboard](https://www.planningcenter.com/_next/image?url=%2Fimages%2Fgiving%2Fdashboard%2Fgiving-dashboard.png&w=3840&q=75)
-Dashboard
-The dashboard is an easy way to get a big-picture view of your church’s giving and share anonymized information with elders, pastors, or your congregation.
-Dashboard
-Donations List
-Recurring Donations
-Donor Reports
-Pledge Campaigns
-Stripe Payouts
-![Giving Dashboard](https://www.planningcenter.com/_next/image?url=%2Fimages%2Fgiving%2Fgiving-dashboard.png&w=2048&q=100)
-![Giving dashboard](https://www.planningcenter.com/_next/image?url=%2Fimages%2Fgiving%2Ftake-a-look-around.png&w=2048&q=100)
-Dashboard
-The dashboard is an easy way to get a big-picture view of your church’s giving and share anonymized information with elders, pastors, or your congregation.
-Donations List
-A list of all giving records will show even more details about each donation. Sort by donor, fund, donation amount, donation type, date, and more.
-Donor Reports
-You can also generate donor reports based on date range, donor type (new or recurring) and by the fund type or other organization labels!
-## DONATION RECEIPTS 
-Send online giving statements quickly and easily.
-Generate giving statements automatically and deliver to people individually or jointly, by snail mail or email. People can also view their giving records and statements online from their profile on [your church’s mobile app](https://www.planningcenter.com/church-center).
-![An example of a year-end giving statement for the full year of 2022 listing all credit card donations for a donor.](https://a-us.storyblok.com/f/1002845/2243x1995/248a185f8c/statements-graphic.png/m/843x0/filters:format\(webp\):quality\(80\))
-## ALL-IN-ONE CHURCH MANAGEMENT SYSTEM
-Connect giving to overall church engagement from an all-in-one system
-See the full picture by combining your subscription to Giving with the rest of Planning Center’s all-in-one church management system
-With your staff on the same system, you can rely on having the most up-to-date information through the central membership database and provide a unified experience for your congregation with a custom church app.
-![The activity feed showing all the ways that someone has engaged at a church: donating to missions, checking in for VBS, and registering for an event.](https://a-us.storyblok.com/f/1002845/1354x1634/c2592020f0/giving-connect-giving-to-chms.png/m/691x0/filters:format\(webp\):quality\(80\))
-## More you can do with Giving
-  * ### Export data
-Export donation data from Giving as a CSV, or filter to view in a print-friendly format.
-  * ### Cover processing fees
-Allow donors to cover all processing fees for their donation.
-  * ### Protect data with permissions
-Keep your congregation’s data private and secure with Giving’s rigorous permissions structure.
-  * ###  ![](https://a-us.storyblok.com/f/1002845/44x44/41f2e3a53e/icon-paper-arrow-right.svg)Track in-kind donations
-Manage non-cash donations like stocks, furniture, vehicles, and construction or labor services.
-  * ### Automatic card updates
-Let Stripe coordinate with banks to automatically update credit and debit cards when they expire.
-  * ### Forecast recurring donations
-Estimate next month’s income based on patterns, donation start dates, and more.
-
-
-## Frequently asked questions about Giving
-For in person questions, contact [support](https://www.planningcenter.com/support).
-### Can I import donor history?
-There are a few ways to input donor history into Giving:[ manually enter donations ](https://pcogiving.zendesk.com/hc/en-us/articles/205197090-Batches)from other systems, build an integration to import donations using [our API](https://developer.planning.center/?_ga=2.156981307.1018852164.1544472332-1919617108.1509553569), or check to see if your current donation management provider already has an [integration with Giving](https://www.planningcenter.com/integrations). You can also import your donor's contact information into our member database, Planning Center People. 
-### Will Giving replace my general ledger or offer a Quickbooks integration?
-Giving is not a replacement for your general ledger. You’ll still need a general ledger to track spending, set budgets, or cut checks. We don’t have a Quickbooks integration, but we do offer CSV exports that can be imported into most accounting software.
-### Can I use a different payment processor than Stripe, like Paypal? 
-Stripe is the only payment processor supported by Planning Center Giving. However, donations from other payment systems can be added manually in [Batches](https://pcogiving.zendesk.com/hc/en-us/articles/205197090-Batches) or programmatically using the [Giving API](https://developer.planning.center/). Some companies have also built [integrations](https://pcogiving.zendesk.com/hc/en-us/articles/360012332614-Giving-Product-Integrations) that would allow you to use Giving with another donation system. 
-### Does Giving work in my country?
-Giving is available in the USA, Canada, Australia, and New Zealand and supports local currencies. Card based donations can be used in all 4 countries. Direct debit (bank transfer) donations are available in the USA and Australia.
-### How does Planning Center's processing fees compare to other companies?
-You can compare our highly discounted processing fees to the standard rates using our calculator [here](https://www.planningcenter.com/processing-fee)! 
-## Plans and pricing
-30 days free | No set up fees | Cancel anytime
-Giving is priced at a flat rate by the total number of online and batched donations per month with no additional fees. Online donations are processed at the lowest rate available by Stripe.
-10
-Donations / mo.
-Free
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/146?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-75
-Donations / mo.
-$15/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/165?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-200
-Donations / mo.
-$32/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/166?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-500
-Donations / mo.
-$69/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/167?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-1,000
-Donations / mo.
-$115/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/168?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-1,500
-Donations / mo.
-$179/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/169?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-Unltd.
-Donations / mo.
-$239/mo.
-+ processing fees
-[Select plan](https://accounts.planningcenteronline.com/packages/109?utm_campaign=website&utm_source=marketing-website&utm_medium=referral&utm_id=campaign_pricing)
-*Planning Center pricing is in USD currency.
-Low Processing Fees
-All online donations are powered by Stripe—an easy-to-use payment processor with no setup fees, monthly minimums, or cancellation fees.
-USA
-  * 2.15% + $0.30/donation for credit and debit card donations
-  * 0% + $0.30 per ACH bank transfer donation
-
-
-CA
-Registered Canadian charities can receive discounted rates of 2.2% + $0.30/donation for domestic Visa/MC cards by [providing evidence of their non-profit status](https://support.stripe.com/questions/fee-discount-for-non-profit-organizations). Otherwise, Stripe's [standard Canadian rates](https://stripe.com/en-ca/pricing) apply.
-Australia
-  * Visa, Mastercard, and non-AMEX domestic cards: 1.4% + $0.30 AUD
-  * AMEX domestic cards: 1.75% + $0.30 AUD
-  * International cards: 2.9% + $0.30 AUD
-  * BECS Direct Debit: 0% + $0.50 AUD
-
-
-New Zealand
-  * Visa, Mastercard, and non-AMEX domestic cards: 2.5% + $0.30 NZD
-  * AMEX domestic cards: 2.7% + $0.30 NZD
-  * International cards: 2.9% + $0.30 NZD
-
-
-Use Giving for free while you’re under contract!
-[Learn more](https://www.planningcenter.com/giving/free)
-## Watch a Giving demo
-See an overview of how you can use Giving in your ministry with a video walk-through from a product expert.
-### Talk to support
-Access to support is free, even if you’re not a customer yet. We’ll get back to you in ~1 business hour.
-[Learn more about support options](https://www.planningcenter.com/support)
-### See the latest update
-We are constantly improving our products. Check out the most recent update to see what’s new!
-[Read the blog](https://www.planningcenter.com/blog "Read our latest blog post")
-[](https://www.planningcenter.com/)
-Get updates delivered to your inbox!
-  * [](https://twitter.com/PlanningCenter)
-  * [](https://www.facebook.com/PlanningCenter)
-  * [](https://www.instagram.com/PlanningCenter)
-  * [](https://youtube.com/PlanningCenter)
-
-
-  * Products
-    * [Calendar](https://www.planningcenter.com/calendar)
-    * [Check-ins](https://www.planningcenter.com/check-ins)
-    * [Giving](https://www.planningcenter.com/giving)
-    * [Groups](https://www.planningcenter.com/groups)
-    * [People](https://www.planningcenter.com/people)
-    * [Publishing](https://www.planningcenter.com/publishing)
-    * [Registrations](https://www.planningcenter.com/registrations)
-    * [Services](https://www.planningcenter.com/services)
-    * [Music Stand](https://www.planningcenter.com/music-stand)
-    * [ Church Center](https://www.planningcenter.com/church-center)
-
-
-  * Resources
-    * [Support](https://www.planningcenter.com/support)
-    * [Training](https://www.planningcenter.com/training)
-    * [Planning Center University](https://www.planningcenter.com/university)
-    * [Getting Started](https://www.planningcenter.com/getting-started)
-    * [Community](https://www.planningcenter.com/community)
-
-
-  * Use cases
-    * [Children’s Ministry](https://www.planningcenter.com/use-cases/childrens-ministry)
-    * [Church Management System](https://www.planningcenter.com/use-cases/chms)
-    * [Church Planters](https://www.planningcenter.com/use-cases/church-planters)
-    * [Multicampus Churches](https://www.planningcenter.com/use-cases/multicampus-churches)
-    * [Worship Planning](https://www.planningcenter.com/use-cases/worship-planning)
-
-
-  * How we compare
-    * [See Processing Fee Savings](https://www.planningcenter.com/processing-fee#calculate-fees)
-    * [Compare Pushpay](https://www.planningcenter.com/compare-planning-center-vs-pushpay)
-    * [Compare Tithe.ly](https://www.planningcenter.com/compare-planning-center-vs-tithely)
-    * [Compare Breeze](https://www.planningcenter.com/compare-planning-center-vs-breeze)
-    * [Compare ChurchTrac](https://www.planningcenter.com/compare-planning-center-vs-churchtrac)
-
-
-  * Company
-    * [About us](https://www.planningcenter.com/about)
-    * [Careers](https://www.planningcenter.com/careers)
-    * [Developers](https://www.planningcenter.com/developers)
-    * [Logos](https://www.planningcenter.com/logos)
-    * [Terms of Service](https://www.planningcenter.com/terms)
-    * [Privacy Policy](https://www.planningcenter.com/privacy)
-    * [Manage your cookies](https://www.planningcenter.com/giving)
-
-
-  * [Pricing](https://www.planningcenter.com/pricing)
-  * [Changelog](https://www.planningcenter.com/changelog)
-  * [What's new](https://www.planningcenter.com/blog)
-  * [Security](https://www.planningcenter.com/security)
-  * [Status](https://status.planningcenter.com/)
-  * [Downloads](https://www.planningcenter.com/check-ins/download)
-  * [Apply for a free  
-Giving subscription](https://www.planningcenter.com/giving/free)
-
-
-![AICPA SOC](https://www.planningcenter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsoc.fc7d03d1.png&w=96&q=90)
-[Terms of Service](https://www.planningcenter.com/terms)[Privacy Policy](https://www.planningcenter.com/privacy)
+| Donations/month | Price |
+|-----------------|-------|
+| 10 | Free + processing fees |
+| 75 | $15/mo + processing fees |
+| 200 | $32/mo + processing fees |
+| 500 | $69/mo + processing fees |
+| 1,000 | $115/mo + processing fees |
+| 1,500 | $179/mo + processing fees |
+| Unlimited | $239/mo + processing fees |
